@@ -4,7 +4,7 @@
 **ADVT** (Attack Defence on Video Tasks) is an adversarial attack/defence toolbox open source library based on Pytorch.
 This repository mainly implements some adversarial attack & defence algorithms and provides some video processing apis.
 
-![image-20210526105234292](docs/images/image-20210526105234292.png)
+![image-20210526105234292](https://github.com/WindFantasy98/ADVT/blob/main/docs/images/image-20210526105234292.png)
 
 
 ## Features

@@ -55,7 +55,7 @@ opencv-python==4.4.0.42
 torch==1.7.0
 urllib==1.26.4
 ```
-You can install advt through pypi or build from source code.
+You can install advt through pypi or build from source code.  
 **1. from pypi**
 ```shell script
 pip install advt

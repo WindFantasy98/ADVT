@@ -1,0 +1,4 @@
+numpy==1.18.5
+opencv-python==4.4.0.42
+torch==1.7.0
+urllib==1.26.4

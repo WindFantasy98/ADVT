@@ -62,7 +62,7 @@ pip install advt
 ```
 **2. from source code**
 ```shell script
-git clone
+git clone https://github.com/WindFantasy98/ADVT.git
 pip install -e .
 ```
 

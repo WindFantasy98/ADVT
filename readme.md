@@ -164,6 +164,5 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-
-## Acknowledgement  
+  
 This repo is still under maintenance. For more information, please contact with me.

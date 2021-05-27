@@ -36,7 +36,7 @@ This module implements defence methods.
 - [x] Randomization [Mitigating Adversarial Effects Through Randomization(ICLR-18)]
 
 ## Evaluation & Visualization
-ADVT provides some useful evaluation & visualization tools.
+ADVT provides some useful evaluation & visualization tools.  
 **Evaluation Metric:**
 - [ ] PSNR
 - [ ] SSMI

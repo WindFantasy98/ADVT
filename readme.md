@@ -18,13 +18,13 @@ The ADVT library has five functional features, which cover the whole process:
 ## Attack
 This module implements attack methods. All attack methods are from top computer conferences in recent 5 years:  
 - [x] FGSM [Explaining and harnessing adversarial examples]
-- [x] BIM []
+- [x] BIM [Adversarial examples in the physical world]
 - [x] MIM [Boosting adversarial attacks with momentum(CVPR-18)]
-- [x] DeepFool [A simple and accurate method to fool deep neural networks]
-- [x] DIM [Countering adversarial images using input transformations]
-- [x] C&W [Towards evaluating the robustness of neural networks]
-- [x] Universal [Universal adversarial perturbations(CVPR)]
-- [ ] ZOO [ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models]
+- [x] DeepFool [DeepFool: A simple and accurate method to fool deep neural networks(CVPR-16)]
+- [x] DIM [Countering adversarial images using input transformations(ICLR-18)]
+- [x] C&W [Towards evaluating the robustness of neural networks(IEEE SP-17)]
+- [x] Universal [Universal adversarial perturbations(CVPR-17)]
+- [ ] ZOO [ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models(ACMAIS)]
 - [x] Sparse ADV [Sparse Adversarial Perturbations for Videos(AAAI-19)]
 
 ## Defence

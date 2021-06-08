@@ -21,7 +21,7 @@ This module implements attack methods. All attack methods are from top computer 
 - [x] BIM [Adversarial examples in the physical world]
 - [x] MIM [Boosting adversarial attacks with momentum(CVPR-18)]
 - [x] DeepFool [DeepFool: A simple and accurate method to fool deep neural networks(CVPR-16)]
-- [x] DIM [Countering adversarial images using input transformations(ICLR-18)]
+- [x] DIM [Improving Transferability of Adversarial Examples with Input Diversity(CVPR-18)]
 - [x] C&W [Towards evaluating the robustness of neural networks(IEEE SP-17)]
 - [x] Universal [Universal adversarial perturbations(CVPR-17)]
 - [ ] ZOO [ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models(ACMAIS)]

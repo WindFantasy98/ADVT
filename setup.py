@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="advt",
-    version="1.0.1",
+    version="1.0.2",
     author="WindF98",
     author_email="wwj98713@163.com",
     description="A library for Attack & Defence on Video Task",

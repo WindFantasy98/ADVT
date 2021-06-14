@@ -51,7 +51,7 @@ class TV(Defend):
         self.niters = niters
         self.test_dir = test_dir
 
-    def defend(self):
+    def defend_lbls(self):
         """
         Apply tv algorithm to the imgs of all labels in test_dir.
 
@@ -59,6 +59,28 @@ class TV(Defend):
         for file in os.listdir(self.test_dir):
             lbl_dir = os.path.join(self.test_dir, file)
             self.denoise_dir_imgs(lbl_dir)
+            # self.denoise_img(lbl_dir)
+
+    def defend_imgs(self):
+        """
+        Apply tv algorithm to the imgs in test_dir.
+
+        """
+        for file in os.listdir(self.test_dir):
+            lbl_dir = os.path.join(self.test_dir, file)
+            # self.denoise_dir_imgs(lbl_dir)
+            self.denoise_img(lbl_dir)
+
+    def denoise_img(self, f_path):
+        im = cv2.imread(f_path)
+        cv2.cvtColor(src=im, code=cv2.COLOR_BGR2RGB, dst=im)
+        im = im / 255
+        de_im = self._tv(im) * 255
+
+        # warning: image write back
+        de_im = de_im.astype(np.uint8)
+        de_im = Image.fromarray(de_im)
+        de_im.save(f_path)
 
     def denoise_dir_imgs(self, path):
         """

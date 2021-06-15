@@ -66,10 +66,13 @@ class TV(Defend):
         Apply tv algorithm to the imgs in test_dir.
 
         """
+        cnt = 0
         for file in os.listdir(self.test_dir):
             lbl_dir = os.path.join(self.test_dir, file)
             # self.denoise_dir_imgs(lbl_dir)
             self.denoise_img(lbl_dir)
+            cnt += 1
+            print('processed', cnt)
 
     def denoise_img(self, f_path):
         im = cv2.imread(f_path)
